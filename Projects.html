@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> PROJECTS </title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        .container {
+        position: relative;
+        margin-left: 25%;
+        width: 50%;
+        }
+
+        .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        }
+
+        .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        }
+
+        .container:hover .image {
+        opacity: 0.3;
+        }
+
+        .container:hover .middle {
+        opacity: 1;
+        }
+
+        .text {
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="page">
+            <div id="bor">
+        <header>
+            <div>
+                <h1><center>PROJECTS</center></h1>
+            </div>
+            <div class="main">
+                <ul>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="startup.html">START-UP</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Qualifications.html">QUALIFICATIONS</a></li>
+                    <li><a href="Projects.html">PROJECTS</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </header>
+        <br>
+        <br><br><br>
+        <div class="container">
+            <img src="blrm.jpg" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">View More</button>
+        </div>
+            <div id="id01" class="w3-modal">
+                <div class="w3-modal-content">
+                <div class="w3-container">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                    <p><b>Book Lending and Returning Machine</b></p>
+                    <p><b>Duration:</b> 3 Months<br><b>Type:</b> Minor Project<br><b>Technology Used:</b> Python and PHP<br><b>Description:</b> This machine helps a user to self issue and self deposit the books without the
+                        help of librarian in a library. This machine also has a sepa rate software which is compatible to run
+                        with RFID Technology and provides best security system to the library.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="container">
+            <img src="sev.jpg" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+            <button onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-black">View More</button>
+        </div>
+            <div id="id02" class="w3-modal">
+                <div class="w3-modal-content">
+                <div class="w3-container">
+                    <span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                    <p><b>Solar- Electric Vehicle</b></p>
+                    <p><b>Duration:</b> 6 Months<br><b>Type:</b> Major Project<br><b>Technology Used:</b> Solar and Electrical<br><b>Description:</b> This vehicle is made to run without using any kind of fossil fuels. 
+                        This vehicle runs by using electricity and the batteries are rechargeable using solar power taken from the solar panels placed on top of vehicle.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="container">
+            <img src="egg.jpg" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+            <button onclick="document.getElementById('id03').style.display='block'" class="w3-button w3-black">View More</button>
+        </div>
+            <div id="id03" class="w3-modal">
+                <div class="w3-modal-content">
+                <div class="w3-container">
+                    <span onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                    <p><b>Egg Catcher Game</b></p>
+                    <p><b>Duration:</b> 4 Weeks<br><b>Type:</b> Minor Project<br><b>Technology Used:</b> Python<br><b>Description:</b> This game has a bowl and many eggs which are generated randomly. If a person is able to 
+                        catch the eggs in the bowl using the arrow keys, the score will be increased. If three eggs miss the bowl and fall down, then the game ends.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div id="award">
+            <h1><b><center>AWARDS</center></b></h1>
+            <p>Our team awarded THIRD in EXCITE 2019 workshop conducted by J-HUB (JNTUH) for "Book Lending and Returning Machine".</p>
+            <br>
+        </div>
+        
+    </div>
+</div>
+    </body>
+</html>

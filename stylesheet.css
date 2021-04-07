@@ -1,0 +1,249 @@
+#page{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bor{
+    border: 2px solid black;
+    background-image:linear-gradient(rgba(104, 92, 92, 0),rgba(110, 88, 88, 0)),url(/plain.jpg);
+   /* background-color: #f3f5f9; */
+   background-position: center;
+    background-size: cover;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+}
+
+/* body{ */
+    /* background-color:lightgrey; */
+    
+    /* height: 654px; */
+    /* border: 2px solid black; */
+    /* width: 50%; */
+/* } */
+
+*{
+    font-family: serif;   
+}
+
+#spa{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.main ul{
+    top: 5%;
+    float: right;
+    margin-top: 20px;
+    list-style-type: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.main ul li{
+    display: inline-block;
+}
+.main ul li a{
+    text-decoration:solid;
+    color:black;
+    padding: 1px 10px;
+    border: 1px solid transparent;
+}
+.main ul li a:hover{
+    background-color:white;
+    color: skyblue;
+}
+
+.info{
+    padding: 25px;
+}
+
+#newpos{
+    margin-top: 10%;
+}
+
+#paddd{
+    padding:25px;
+}
+
+#award{
+    padding-left: 25px;
+}
+
+#title{
+    position:absolute;
+    top: 5%;
+    left: 45%;
+}
+.images{
+    /* position:absolute; */
+    margin-top: 5%;
+    margin-left: 50%;
+    width: 15%;
+    /* height: 15%; */
+    padding-right: 25px;
+    float: right;
+}
+.career{
+    position: absolute;
+    padding: 25px;
+    top: 40%;
+}
+
+.project{
+    position: absolute;
+    padding: 25px;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50; animation: html 2s;} /* Green */
+.css {width: 80%; background-color: #2196F3; animation: css 2s;} /* Blue */
+.python {width: 75%; background-color: #f44336; animation: python 2s;} /* Red */
+.ml {width: 60%; background-color: #808080; animation: ml 2s;} /* Dark Grey */
+.c {width: 90%; background-color:rgb(255, 0, 119); animation: c 2s;}
+.sql {width: 80%; background-color:rgba(255, 0, 0, 0.5); animation: sql 2s;}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+    
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+    
+}
+@keyframes python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+    
+}
+@keyframes ml {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+    
+}
+@keyframes c {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+    
+}
+@keyframes sql {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+table.center {
+    text-align: center;
+  }
+
+#cont p{
+    position: absolute;
+    color:black;
+    left: 35%;
+    top: 20%;
+    font-size: 40px;
+}
+#cont h2{
+    position: absolute;
+    color:black;
+    left: 42%;
+    top: 40%;
+    font-size: 30px;
+}
+
+.feed h2{
+    position: absolute;
+    color:black;
+    left: 45%;
+    top: 65%;
+    font-size: 30px;
+}
+
+#twitter{
+    position: absolute;
+    left:38%;
+    top:38%;
+    width: 5%;
+}
+#insta{
+    position: absolute;
+    left:45%;
+    top:38%;
+    width: 4%;
+}
+#fb{
+    position: absolute;
+    left:49%;
+    top:36%;
+    width: 8%;
+}
+#linked{
+    position: absolute;
+    left:57%;
+    top:38%;
+    width: 3.5%;
+}
+
+#form{
+    position: absolute;
+    left:48%;
+    top:77%;
+    width: 3.5%;
+}
+
+#git{
+    position: absolute;
+    left:46%;
+    top:57%;
+    width: 3.5%;
+}
+
+#hr{
+    position: absolute;
+    left:51%;
+    top:57%;
+    width: 3.5%;
+}

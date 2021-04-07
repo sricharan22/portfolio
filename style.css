@@ -13,6 +13,13 @@ body{
    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    
+}
+#pag{
+  width: 100%;
+  margin-left: auto;
+    margin-right: auto;
+  border: 2px solid black;
 }
 
 .wrapper{

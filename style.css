@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image:linear-gradient(rgba(104, 92, 92, 0),rgba(110, 88, 88, 0)),url(/bg.jpg);
+    background-image:linear-gradient(rgba(104, 92, 92, 0),rgba(110, 88, 88, 0)),url(bg.jpg);
    /* background-color: #f3f5f9; */
    background-position: center;
     background-size: cover;
